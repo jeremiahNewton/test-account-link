@@ -5,3 +5,15 @@
 .auth0-lock-header-bg-blur {
   background-color: #14192f
 }
+
+.auth0-lock-name {
+  color: white
+}
+
+.auth0-lock-alternative-link {
+  display: none
+}
+
+#message {
+  color: white
+}
