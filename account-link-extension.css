@@ -1,19 +1,35 @@
-.auth-lock-center {
-  background-color: #14192f
+body {
+    background-color: #f0f4f8; /* Light grey background */
+    font-family: 'Arial', sans-serif; /* Change the font to Arial */
+    color: #333; /* Dark text color */
 }
 
-.auth0-lock-header-bg-blur {
-  background-color: #14192f
+.auth0-lock-widget {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the widget */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
 }
 
-.auth0-lock-name {
-  color: white
+.auth0-lock-input {
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners for inputs */
+    padding: 10px;
 }
 
-.auth0-lock-alternative-link {
-  display: none
+.auth0-lock-submit {
+    background-color: #007bff; /* Blue background for submit button */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-#message {
-  color: white
+.auth0-lock-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
